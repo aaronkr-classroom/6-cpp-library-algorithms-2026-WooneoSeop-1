@@ -76,27 +76,27 @@ vector<string> lib_split(const string& s) {
 }
 
 
-int main() {
-	string s;
-
-	// 문자열을 한 행씩 입력 받아 분할
-
-	while (getline(cin, s)) {
-		vector<string> v1 = split(s);
-		vector<string> v2 = lib_split(s);
-
-		cout << "Original split() : " << endl;
-		for (vector<string>::size_type i = 0; i != v1.size(); i++){
-				cout << v1[i] << endl;
-		}
-
-		cout << "NEW lib_split() : " << endl;
-		for (vector<string>::size_type i = 0; i != v2.size(); i++){
-			cout << v2[i] << endl;
-		}
-
-	}
-
-	return 0;
-}
+//int main() {
+//	string s;
+//
+//	// 문자열을 한 행씩 입력 받아 분할
+//
+//	while (getline(cin, s)) {
+//		vector<string> v1 = split(s);
+//		vector<string> v2 = lib_split(s);
+//
+//		cout << "Original split() : " << endl;
+//		for (vector<string>::size_type i = 0; i != v1.size(); i++){
+//				cout << v1[i] << endl;
+//		}
+//
+//		cout << "NEW lib_split() : " << endl;
+//		for (vector<string>::size_type i = 0; i != v2.size(); i++){
+//			cout << v2[i] << endl;
+//		}
+//
+//	}
+//
+//	return 0;
+//}
 
